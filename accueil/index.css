@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #010818;
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+  }
+
+header {
+    height: 50px;
+}
+
+ul {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
+}
+.navbutton {
+    color: white;
+    user-select: none;
+    font-size: larger;
+    font-weight: bold;
+}
+ul a :hover {
+    color: #99acd8;
+}
